@@ -1,5 +1,16 @@
-rrd4j
+rrd4j with RRDBulkWriter
 =====
+
+This is a clone of the rrd4j code with an additional method for openHAB users.
+
+The method "RRDBulkWriter" will fetch the persisted data from a single item and put it into an rrd4j file (.rrd).
+The method is part of the "demo" package ( located under "src/main/java/org/rrd4j/demo").
+
+The method can be called from a compiled .jar file with "java -cp rrd4j-{version}.jar org.rrd4j.demo.RRDBulkWriter" and it reads the configuration settings in the file "RRDBulkWriter.config" (example located next to the readme). 
+This config file is expected in the folder of the .jar.
+Some output is printed on the terminal to show the process is working, the complete log and all other output is stored under "/user/rrd4j-demo".
+
+
 
 [![Gitter chat](https://badges.gitter.im/rrd4j/Lobby.png)](https://gitter.im/rrd4j/Lobby)
 [![Build Status](https://circleci.com/gh/rrd4j/rrd4j.svg?style=svg)](https://circleci.com/gh/rrd4j/rrd4j/tree/master)

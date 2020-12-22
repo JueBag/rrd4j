@@ -58,7 +58,7 @@ public class RRDBulkWriter {
      * </p>
      * 
      * <pre>
-     * java -cp rrd4j-{version}.jar.jar org.rrd4j.demo.RRDBulkWriter
+     * java -cp rrd4j-{version}.jar org.rrd4j.demo.RRDBulkWriter
      * </pre>
      * 
      * Reads data saved by a Persistence Service of openHAB and stores it into an

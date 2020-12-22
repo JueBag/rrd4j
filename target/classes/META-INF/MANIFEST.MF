@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1608673321975
+Bnd-LastModified: 1608674861822
 Bundle-Description: A high performance data logging and graphing syste
  m for time series data.
 Bundle-Developers: fbacchella;email="fbacchella@spamcop.net";name="Fab
@@ -13,7 +13,7 @@ Bundle-SCM: url="https://github.com/rrd4j/rrd4j/",connection="scm:git:
  https://github.com/rrd4j/rrd4j.git",developer-connection="scm:git:htt
  ps://github.com/rrd4j/rrd4j.git",tag=HEAD
 Bundle-SymbolicName: rrd4j
-Bundle-Version: 3.9.0.202012222142
+Bundle-Version: 3.9.0.202012222207
 Created-By: 11.0.8 (Azul Systems, Inc.)
 Export-Package: org.rrd4j;version="3.9.0";uses:="org.rrd4j.data",org.r
  rd4j.core;version="3.9.0";uses:="com.mongodb,com.mongodb.client,com.s
