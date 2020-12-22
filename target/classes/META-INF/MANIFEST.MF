@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1608673321975
+Bundle-Description: A high performance data logging and graphing syste
+ m for time series data.
+Bundle-Developers: fbacchella;email="fbacchella@spamcop.net";name="Fab
+ rice Bacchella"
+Bundle-DocURL: https://github.com/rrd4j/rrd4j/
+Bundle-License: "Apache License Version 2.0";link="http://www.apache.o
+ rg/licenses/LICENSE-2.0.txt"
+Bundle-ManifestVersion: 2
+Bundle-Name: RRD4J
+Bundle-SCM: url="https://github.com/rrd4j/rrd4j/",connection="scm:git:
+ https://github.com/rrd4j/rrd4j.git",developer-connection="scm:git:htt
+ ps://github.com/rrd4j/rrd4j.git",tag=HEAD
+Bundle-SymbolicName: rrd4j
+Bundle-Version: 3.9.0.202012222142
+Created-By: 11.0.8 (Azul Systems, Inc.)
+Export-Package: org.rrd4j;version="3.9.0";uses:="org.rrd4j.data",org.r
+ rd4j.core;version="3.9.0";uses:="com.mongodb,com.mongodb.client,com.s
+ leepycat.je,org.rrd4j,org.rrd4j.data,org.w3c.dom,org.xml.sax",org.rrd
+ 4j.core.jrrd;version="3.9.0";uses:="org.rrd4j,org.rrd4j.data",org.rrd
+ 4j.core.timespec;version="3.9.0";uses:="javax.swing",org.rrd4j.data;v
+ ersion="3.9.0";uses:="org.rrd4j,org.rrd4j.core",org.rrd4j.graph;versi
+ on="3.9.0";uses:="javax.imageio,org.rrd4j,org.rrd4j.core,org.rrd4j.da
+ ta,org.xml.sax",com.tomgibara.crinch.hashing;version="3.9.0",eu.bengr
+ een.data.utility;version="3.9.0";uses:="org.rrd4j.graph"
+Import-Package: com.mongodb;resolution:=optional;version="[3.12,4)",co
+ m.mongodb.client;resolution:=optional;version="[3.12,4)",com.mongodb.
+ client.result;resolution:=optional;version="[3.12,4)",com.sleepycat.j
+ e;resolution:=optional,org.bson.conversions;resolution:=optional;vers
+ ion="[3.12,4)",com.tomgibara.crinch.hashing;version="[3.9,4)",eu.beng
+ reen.data.utility;version="[3.9,4)",javax.imageio,javax.imageio.metad
+ ata,javax.imageio.spi,javax.imageio.stream,javax.swing,javax.swing.ev
+ ent,javax.swing.filechooser,javax.swing.table,javax.swing.tree,javax.
+ xml.parsers,org.rrd4j;version="[3.9,4)",org.rrd4j.core;version="[3.9,
+ 4)",org.rrd4j.core.jrrd;version="[3.9,4)",org.rrd4j.core.timespec;ver
+ sion="[3.9,4)",org.rrd4j.data;version="[3.9,4)",org.rrd4j.graph;versi
+ on="[3.9,4)",org.w3c.dom,org.xml.sax,sun.misc;resolution:=optional
+Private-Package: org.rrd4j.converter,org.rrd4j.demo,org.rrd4j.inspecto
+ r
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.2.0.202010142003
+
