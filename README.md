@@ -1,5 +1,6 @@
 rrd4j with RRDBulkWriter
 =====
+## Note: This repository is deprecated, please move to [rrdbulkwrier](https://github.com/JueBag/rrdbulkwriter)
 
 This is a clone of the rrd4j code with an additional method for openHAB users.
 
